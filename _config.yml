@@ -301,11 +301,11 @@ collections:
     permalink:         /projects/:path/
     output:            true
 
-projects:
+  projects:
     permalink:         /people/:path/
     output:            true
 
-wps:
+  wps:
     permalink:         /wps/:path/
     output:            true
 
