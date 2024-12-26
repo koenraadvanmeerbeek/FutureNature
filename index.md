@@ -11,11 +11,6 @@ Climate change is pushing ecosystems beyond historical boundaries. Traditional c
 With the knowledge gained, we will be able to shape ecosystems that will not only survive, but thrive under climate change. **FutureNature** will provide a “greenprint” to study assisted migration across species groups and ecosystems, and, ideally, enable a paradigm shift in conservation thinking by lifting the psychological barriers preventing changes in natural ecosystems.
 
 
-More than one year ago I was looking for a blogging platform but couldn't find it:
-One that would let me write posts in markdown with my own editor,
-one that didn't look awful buy modern design standards, and one that felt snappy on a mobile phone.
-That and more is now Hydejack. I hope you enjoy it [as much as I do](https://qwtel.com/).
-
 
 [documentation]: docs/README.md
 [install]: docs/install.md
