@@ -1,7 +1,7 @@
 ---
 layout: project
-title: 'Work Package 2'
-caption: Modelling
+title: 'Senne Spreij'
+caption: Doctoral Researcher
 # description: >
 #  This is how I use Hydejack on my personal site. 
 #  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.

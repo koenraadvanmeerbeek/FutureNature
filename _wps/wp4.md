@@ -1,7 +1,7 @@
 ---
 layout: project
-title: 'Work Package 1'
-caption: Observatory
+title: 'Work Package 4'
+caption: Capacity building
 # description: >
 #  This is how I use Hydejack on my personal site. 
 #  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.
