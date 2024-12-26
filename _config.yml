@@ -49,14 +49,14 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             People
-    url:               /blog/
   - title:             About
-    url:               /projects/
+    url:               /about/
+  - title:             People
+    url:               /people/
   - title:             Publications
-    url:               /resume/
+    url:               /publications/
   - title:             Contact
-    url:               /docs/
+    url:               /contact/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -94,7 +94,7 @@ paginate_path:         /blog/:num/
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/grassland_bw.jpg
+accent_image: /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
