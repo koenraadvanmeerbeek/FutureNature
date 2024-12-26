@@ -301,6 +301,13 @@ collections:
     permalink:         /projects/:path/
     output:            true
 
+projects:
+    permalink:         /people/:path/
+    output:            true
+
+wps:
+    permalink:         /wps/:path/
+    output:            true
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
