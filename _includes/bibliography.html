@@ -1,0 +1,7 @@
+<ol>
+  {% for entry in site.scholar.entries %}
+    <li>
+      {{ entry | cite }}
+    </li>
+  {% endfor %}
+</ol>
