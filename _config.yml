@@ -287,8 +287,6 @@ hydejack:
 
 # References
 scholar:
-  style: apa # Citation style (e.g., apa, mla, ieee)
-  locale: en
   bibliography: references.bib
   bibliography_template: ./_includes/bibliography.html
   details_link: false
