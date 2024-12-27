@@ -1,7 +1,11 @@
 <ol>
-  {% for entry in site.scholar.entries %}
+  {% assign sorted_entries = site.scholar.entries | sort: "year" %}
+  {% for entry in sorted_entries %}
     <li>
       {{ entry | cite }}
+      {% if entry.doi %}
+        <a href="https://doi.org/{{ entry.doi }}" target="_blank">(DOI)</a>
+      {% endif %}
     </li>
   {% endfor %}
 </ol>
