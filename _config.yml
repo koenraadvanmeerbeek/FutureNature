@@ -287,9 +287,24 @@ hydejack:
 
 # References
 scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: ./_includes/bibliography.html
-  details_link: false
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
 
 # Collections
 # ----------------------------------------------------------------------------------------
