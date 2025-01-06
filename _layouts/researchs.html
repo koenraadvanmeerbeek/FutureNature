@@ -9,9 +9,9 @@ layout: page
 {% assign ordered_research = site[show_collection] | default:empty_col | sort: "title" %}
 {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
 
-<div class="columns {% unless no_third_column %}columns-break{% endunless %}">
+<div class="columns">
   {% for research in ordered_research %}
-    <div class="column column-1-2">
+    <div class="column">
       {% include_cached pro/project-card.html project=research %}
     </div>
   {% endfor %}
@@ -26,8 +26,8 @@ layout: page
   }
 
   .column {
-    flex: 1 1 50%;
-    max-width: 50%;
+    flex: 1 1 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
   }
 
   @media (max-width: 768px) {
