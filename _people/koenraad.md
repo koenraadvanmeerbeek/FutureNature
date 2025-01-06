@@ -5,11 +5,11 @@ caption: Principal Investigator
 category: Principal Investigator
 
 image: 
-  path: /assets/img/projects/qwtel.jpg
+  path: /assets/img/people/Koenraad_100.jpg
   srcset: 
-    1920w: /assets/img/projects/qwtel.jpg
-    960w:  /assets/img/projects/qwtel@0,5x.jpg
-    480w:  /assets/img/projects/qwtel@0,25x.jpg
+    435w: /assets/img/people/Koenraad_100.jpg
+    250w:  /assets/img/people/Koenraad_50.jpg
+
 # links:
 #  - title: Link
 #    url: https://qwtel.com/
@@ -20,7 +20,7 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-In Work Package 1, ...
+Prof. Koenraad Van Meerbeek is Principal Investigator of the FutureNature project.
 
 
 
