@@ -307,7 +307,7 @@ collections:
     output:            true
 
   research:
-    permalink:         /about/:path/
+    permalink:         /research/:path/
     output:            true
 
 # File inclusion/exclusion
