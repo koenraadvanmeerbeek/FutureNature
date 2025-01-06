@@ -49,15 +49,9 @@ layout: base
   </span>
 </p>
 
-
- {% if project.image %}
+  {% if project.image %}
   <div class="img-wrapper lead aspect-ratio sixteen-nine">
-    <picture>
-      {% for size, url in project.image.srcset %}
-        <source srcset="{{ url | relative_url }}" media="(max-width: {{ size }})">
-      {% endfor %}
-      <img src="{{ project.image.path | relative_url }}" alt="{{ project.title }}" property="image">
-    </picture>
+    <img src="{{ project.image.path | relative_url }}" alt="{{ project.title }}" property="image">
   </div>
 {% endif %}
 
