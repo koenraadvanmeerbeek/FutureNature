@@ -2,6 +2,8 @@
 layout: project
 title: 'Stef Haesen'
 caption: Postdoctoral Researcher
+category: Postdoctoral Researcher
+
 # description: >
 #  This is how I use Hydejack on my personal site. 
 #  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.

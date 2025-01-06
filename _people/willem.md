@@ -2,6 +2,7 @@
 layout: project
 title: 'Willem Goossens'
 caption: Doctoral Researcher
+category: Doctoral Researcher
 # description: >
 #  This is how I use Hydejack on my personal site. 
 #  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.
