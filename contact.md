@@ -5,7 +5,6 @@ permalink: /contact/
 ---
 Feel free to reach out through the following channels:
 
----
 
 <div class="contact-item">
   <img src="{{ '/assets/icons/email.svg' | relative_url }}" alt="Email" class="contact-icon">
