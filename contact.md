@@ -3,9 +3,6 @@ layout: page
 title: Contact
 cover: true
 ---
-
-# Get in Touch
-
 Feel free to reach out through the following channels:
 
 ---
