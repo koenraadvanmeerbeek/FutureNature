@@ -49,16 +49,12 @@ layout: base
   </span>
 </p>
 
-    {% if project.image %}
-  <div class="img-wrapper lead aspect-ratio sixteen-nine">
-    <picture>
-      {% for size, url in project.image.srcset %}
-        <source srcset="{{ url | relative_url }}" media="(max-width: {{ size }})">
-      {% endfor %}
-      <img src="{{ project.image.path | relative_url }}" alt="{{ project.title }}" property="image">
-    </picture>
+  {% if project.image %}
+  <div class="img-wrapper lead aspect-ratio square">
+    <img src="{{ project.image.path | relative_url }}" alt="{{ project.title }}" property="image">
   </div>
 {% endif %}
+
 
     {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
     {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}
