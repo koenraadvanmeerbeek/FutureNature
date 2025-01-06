@@ -306,7 +306,7 @@ collections:
     permalink:         /people/:path/
     output:            true
 
-  about:
+  research:
     permalink:         /about/:path/
     output:            true
 
