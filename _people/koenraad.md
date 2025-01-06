@@ -4,9 +4,9 @@ title: 'Koenraad Van Meerbeek'
 caption: Principal Investigator
 category: Principal Investigator
 image: 
-  path: /assets/img/projects/qwtel.jpg
+  path: /assets/img/projects/Koenraad_100.jpg
   srcset: 
-    1920w: /assets/img/projects/qwtel.jpg
+    1920w: /assets/img/projects/Koenraad_100.jpg
     960w:  /assets/img/projects/qwtel@0,5x.jpg
     480w:  /assets/img/projects/qwtel@0,25x.jpg
 # links:
