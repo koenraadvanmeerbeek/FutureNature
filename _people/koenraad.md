@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: people
 title: 'Koenraad Van Meerbeek'
 caption: Principal Investigator
 category: Principal Investigator

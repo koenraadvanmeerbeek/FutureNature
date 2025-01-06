@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: people
 title: 'Stef Haesen'
 caption: Postdoctoral Researcher
 category: Postdoctoral Researcher

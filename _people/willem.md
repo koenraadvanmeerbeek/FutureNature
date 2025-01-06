@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: people
 title: 'Willem Goossens'
 caption: Doctoral Researcher
 category: Doctoral Researcher

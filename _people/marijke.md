@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: people
 title: 'Marijke Geuskens'
 caption: Doctoral Researcher
 category: Doctoral Researcher

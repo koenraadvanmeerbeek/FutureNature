@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: people
 title: 'Senne Spreij'
 caption: Doctoral Researcher
 category: Doctoral Researcher
