@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: research
 title: 'Work Package 3'
 caption: Climate change experiment
 # description: >

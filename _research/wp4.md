@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: research
 title: 'Work Package 4'
 caption: Capacity building
 # description: >

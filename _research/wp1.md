@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: research
 title: 'Work Package 1'
 caption: Observatory
 # description: >
