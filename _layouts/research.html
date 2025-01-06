@@ -36,7 +36,7 @@ layout: base
     {% endif %}
 
     {% if parent %}{{ separator }}{% endif %}
-    <span property="category">{{ project.category }}</span>
+    <span property="caption">{{ project.caption }}</span> <!-- Display the caption -->
   </span>
 
   <span class="ellipsis ml1">
@@ -48,6 +48,7 @@ layout: base
     {% endfor %}
   </span>
 </p>
+
 
   {% if project.image %}
   <div class="img-wrapper lead aspect-ratio sixteen-nine">
