@@ -4,21 +4,25 @@ layout: page
 
 {{ content }}
 
-{% assign category_order = "Principal Investigator, Postdoctoral Researcher, PhD Researcher" | split: ", " %}
-{% assign ordered_projects = site[show_collection] | default:empty_col | group_by: "category" %}
-{% assign ordered_groups = ordered_projects | sort: "name" %}
+{% assign show_collection = page.show_collection | default:"projects" %}
+{% assign empty_col = '' | split:'.' %}
+{% assign collection_items = site[show_collection] | default:empty_col %}
+{% if collection_items != empty_col %}
+  {% assign ordered_projects = collection_items | group_by: "category" %}
+  {% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
+  {% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
 
-{% for category in category_order %}
-  {% assign group = ordered_projects | where: "name", category %}
-  {% if group %}
-    <h2 id="{{ category | slugify }}">{{ category }}</h2>
+  {% for group in ordered_projects %}
+    <h2 id="{{ group.name | slugify }}">{{ group.name }}</h2>
     <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
-      {% for project in group %}
+      {% for project in group.items %}
         {% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
         <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
           {% include_cached pro/project-card.html project=project featured=featured %}
         </div>
       {% endfor %}
     </div>
-  {% endif %}
-{% endfor %}
+  {% endfor %}
+{% else %}
+  <p>No items found in the collection "{{ show_collection }}".</p>
+{% endif %}
