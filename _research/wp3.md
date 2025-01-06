@@ -4,11 +4,11 @@ title: 'Work Package 3'
 caption: Climate change experiment
 
 image: 
-  path: /assets/img/projects/qwtel.jpg
+  path: /assets/img/research/wp3.jpg
   srcset: 
-    1920w: /assets/img/projects/qwtel.jpg
-    960w:  /assets/img/projects/qwtel@0,5x.jpg
-    480w:  /assets/img/projects/qwtel@0,25x.jpg
+    1920w: /assets/img/research/wp3.jpg
+    960w:  /assets/img/research/wp3_0.5.jpg
+    480w:  /assets/img/research/wp3_0.25.jpg
 # links:
 #  - title: Link
 #    url: https://qwtel.com/
