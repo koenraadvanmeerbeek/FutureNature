@@ -2,10 +2,7 @@
 layout: research
 title: 'Work Package 2'
 caption: Modelling
-# description: >
-#  This is how I use Hydejack on my personal site. 
-#  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.
-# date: 1 Jun 2020
+
 image: 
   path: /assets/img/projects/qwtel.jpg
   srcset: 
@@ -22,7 +19,6 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-In Work Package 1, ...
-
+Species distribution models (SDMs) have emerged as a vital and powerful tool for explaining and predicting how species respond to environmental changes. In **Work Package 2**, we will employ SDMs to model the performance of both existing and simulated plant communities under climate change scenarios and quantify the resulting impact on their trait space. Using these models, novel communities will be created for selected locations and phytosociological associations, based on the predicted effects on existing communities and the climate analogue approach. The findings will be translated into maps identifying areas where assisted migration is essential to sustain future grassland ecosystem functionality. This work will provide evidence to test the second hypothesis of FutureNature, which posits that assisted migration is necessary to enable species to track climate change and maintain ecosystem functioning in the future.
 
 

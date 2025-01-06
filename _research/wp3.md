@@ -2,10 +2,7 @@
 layout: research
 title: 'Work Package 3'
 caption: Climate change experiment
-# description: >
-#  This is how I use Hydejack on my personal site. 
-#  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.
-# date: 1 Jun 2020
+
 image: 
   path: /assets/img/projects/qwtel.jpg
   srcset: 
@@ -22,7 +19,7 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-In Work Package 1, ...
+In **Work Package 3**, we will carry out a grassland experiment incorporating warming and drought treatments to compare the effects of climate change on ecosystem functioning in native plant communities versus engineered novel communities. Alongside continuous treatment monitoring, we will assess physicochemical soil properties, plant and vegetation responses, functional traits, and above- and belowground ecosystem functions using field measurements and drone technology. This experiment will not only provide further evidence for hypothesis 2 but also test hypothesis 3, which posits that plant communities adapted to future climatic conditions will exhibit greater drought tolerance. Additionally, it will offer mechanistic insights into the broader patterns observed in Work Package 2.
 
 
 
