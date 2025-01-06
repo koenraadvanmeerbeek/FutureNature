@@ -16,3 +16,24 @@ layout: page
     </div>
   {% endfor %}
 </div>
+
+
+<style>
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .column {
+    flex: 1 1 50%;
+    max-width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    .column {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+</style>
