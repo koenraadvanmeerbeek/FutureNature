@@ -14,9 +14,9 @@ Feel free to reach out through the following channels:
 </div>
 
 <div class="contact-item">
-  <img src="{{ '/assets/icons/bluesky.svg' | relative_url }}" alt="Bluesky" class="contact-icon">
+  <img src="{{ '/assets/icons/bluesky2.svg' | relative_url }}" alt="Bluesky" class="contact-icon">
   <a href="https://bsky.app/profile/kvanmeerbeek.bsky.social" target="_blank">
-    Follow me on Bluesky: <code>@kvanmeerbeek.bsky.social</code>
+    Follow me on Bluesky
   </a>
 </div>
 
