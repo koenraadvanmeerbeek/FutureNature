@@ -2,21 +2,7 @@
 <ul>
   {% if include.author.social %}
     {% for link in include.author.social %}
-      {% if link.first == "bluesky" %}
-        <li>
-          <a href="https://bsky.app/profile/{{ link.last }}" target="_blank" rel="noopener noreferrer">
-            <img src="{{ '/assets/icons/bluesky.svg' | relative_url }}" alt="Bluesky" class="social-icon" />
-          </a>
-        </li>
-      {% elsif link.first == "sglobelab" %}
-        <li>
-          <a href="{{ link.last }}" target="_blank" rel="noopener noreferrer">
-            <img src="{{ '/assets/icons/sglobelab.png' | relative_url }}" alt="sGlobe Lab" class="social-icon" />
-          </a>
-        </li>
-      {% else %}
-        {% include components/social-list-item.html platform=link.first username=link.last %}
-      {% endif %}
+      {% include components/social-list-item.html platform=link.first username=link.last %}
     {% endfor %}
   {% else %}
     {% assign twitter_username = author.twitter.username | default: author.twitter | default:site.twitter.username | default:site.twitter | default:site.twitter_username %}
@@ -32,6 +18,11 @@
     {% assign email = author.email | default: site.email %}
     {% if email %}
       {% include components/social-list-item.html platform="email" username=email %}
+    {% endif %}
+
+    {% assign bluesky_username = author.bluesky | default: site.bluesky %}
+    {% if bluesky_username %}
+      {% include components/social-list-item.html platform="bluesky" username=bluesky_username %}
     {% endif %}
   {% endif %}
 </ul>
