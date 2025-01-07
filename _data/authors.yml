@@ -28,7 +28,9 @@ author1:
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
     twitter:         <username>
-    github:          <username>
+    github:          koenraadvanmeerbeek
+    bluesky:         @kvanmeerbeek.bsky.social
+    # linkedin:        <firstname-lastname-string>
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
