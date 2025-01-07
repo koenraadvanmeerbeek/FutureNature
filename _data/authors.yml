@@ -27,9 +27,9 @@ author1:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    twitter:         <username>
+    # twitter:         <username>
     github:          koenraadvanmeerbeek
-    bluesky:         @kvanmeerbeek.bsky.social
+    bluesky:         kvanmeerbeek.bsky.social
     # linkedin:        <firstname-lastname-string>
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
