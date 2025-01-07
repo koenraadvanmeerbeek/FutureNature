@@ -2,7 +2,15 @@
 <ul>
   {% if include.author.social %}
     {% for link in include.author.social %}
-      {% include components/social-list-item.html platform=link.first username=link.last %}
+      {% if link.first == "bluesky" %}
+        <li>
+          <a href="https://bsky.app/profile/{{ link.last }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/assets/icons/bluesky.svg' | relative_url }}" alt="Bluesky" class="social-icon" />
+          </a>
+        </li>
+      {% else %}
+        {% include components/social-list-item.html platform=link.first username=link.last %}
+      {% endif %}
     {% endfor %}
   {% else %}
     {% assign twitter_username = author.twitter.username | default: author.twitter | default:site.twitter.username | default:site.twitter | default:site.twitter_username %}
@@ -18,6 +26,15 @@
     {% assign email = author.email | default: site.email %}
     {% if email %}
       {% include components/social-list-item.html platform="email" username=email %}
+    {% endif %}
+
+    {% assign bluesky_username = author.bluesky %}
+    {% if bluesky_username %}
+      <li>
+        <a href="https://bsky.app/profile/{{ bluesky_username }}" target="_blank" rel="noopener noreferrer">
+          <img src="{{ '/assets/icons/bluesky.svg' | relative_url }}" alt="Bluesky" class="social-icon" />
+        </a>
+      </li>
     {% endif %}
   {% endif %}
 </ul>
