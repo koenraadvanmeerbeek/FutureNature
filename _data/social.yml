@@ -10,6 +10,9 @@ bluesky:
   name: Bluesky
   icon: icon-bluesky
   prepend: https://bsky.app/profile/
+sglobelab:
+  name: sGlobe lab
+  icon: assets/icons/sglobelab.png
 google:
   name: Google
   icon: icon-google
