@@ -27,14 +27,5 @@
     {% if email %}
       {% include components/social-list-item.html platform="email" username=email %}
     {% endif %}
-
-    {% assign bluesky_username = author.bluesky %}
-    {% if bluesky_username %}
-      <li>
-        <a href="https://bsky.app/profile/{{ bluesky_username }}" target="_blank" rel="noopener noreferrer">
-          <img src="{{ '/assets/icons/bluesky.svg' | relative_url }}" alt="Bluesky" class="social-icon" />
-        </a>
-      </li>
-    {% endif %}
   {% endif %}
 </ul>
