@@ -24,5 +24,10 @@
     {% if bluesky_username %}
       {% include components/social-list-item.html platform="bluesky" username=bluesky_username %}
     {% endif %}
+
+    {% assign sglobelab_link = author.sglobelab | default: site.sglobelab %}
+    {% if sglobelab_link %}
+      {% include components/social-list-item.html platform="sglobelab" username=sglobelab_link %}
+    {% endif %}
   {% endif %}
 </ul>
