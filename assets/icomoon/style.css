@@ -27,14 +27,8 @@
 
 .icon-sglobelab:before {
   content: "\e90b";
+  justify-content: center;
 }
-.icon-sglobelab-container {
-  display: flex;             /* Enables flexbox */
-  justify-content: center;   /* Centers horizontally */
-  align-items: center;       /* Centers vertically */
-  width: 100%;               /* Ensures it spans the container */
-}
-
 .icon-sglobe:before {
   content: "\e90a";
 }
