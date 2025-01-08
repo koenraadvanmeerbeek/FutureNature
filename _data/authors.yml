@@ -28,8 +28,8 @@ author1:
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
     # twitter:         <username>
-    github:          koenraadvanmeerbeek
-    bluesky:         kvanmeerbeek.bsky.social
+    #github:          koenraadvanmeerbeek
+    #bluesky:         kvanmeerbeek.bsky.social
     sglobelab:          https://www.sglobelab.com/
     # linkedin:        <firstname-lastname-string>
     # email:           <mail@domain.tld>
