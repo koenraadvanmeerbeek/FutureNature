@@ -12,7 +12,7 @@ bluesky:
   prepend: 'https://bsky.app/profile/'
 sglobelab:
   name: sGlobe lab
-  icon: icon-sglobe
+  icon: icon-sglobelab
 google:
   name: Google
   icon: icon-google
