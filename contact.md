@@ -7,7 +7,7 @@ Feel free to reach out through the following channels:
 
 <div class="contact-list">
   <div class="contact-item">
-    <a href="#" onclick="window.location='mailto:' + ['koenraad.vanmeerbeek', 'kuleuven.be'].join('@')" class="contact-link">
+    <a href="https://www.kuleuven.be/wieiswie/en/person/00076217" target="_blank" class="contact-link">
       <span class="icon-envelop contact-icon"></span>
       <span class="contact-text">Email me</span>
     </a>
