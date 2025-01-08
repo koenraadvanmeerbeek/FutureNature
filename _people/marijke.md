@@ -8,11 +8,11 @@ category: Doctoral Researcher
 #  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.
 # date: 1 Jun 2020
 image: 
-  path: /assets/img/projects/Marijke.jpg
+  path: /assets/img/people/Marijke.jpg
   srcset: 
-    1920w: /assets/img/projects/Marijke.jpg
-    960w:  /assets/img/projects/Marijke_0.5.jpg
-    480w:  /assets/img/projects/Marijke_0.25.jpg
+    1920w: /assets/img/people/Marijke.jpg
+    960w:  /assets/img/people/Marijke_0.5.jpg
+    480w:  /assets/img/people/Marijke_0.25.jpg
 # links:
 #  - title: Link
 #    url: https://qwtel.com/
