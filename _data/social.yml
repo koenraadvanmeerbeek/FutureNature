@@ -8,11 +8,11 @@ amazon:
   icon: icon-amazon
 bluesky:
   name: Bluesky
-  icon: assets/icons/bluesky.svg
+  icon: icon-bluesky
   prepend: 'https://bsky.app/profile/'
 sglobelab:
   name: sGlobe lab
-  icon: assets/icons/sglobe.png
+  icon: icon-sglobe
 google:
   name: Google
   icon: icon-google
