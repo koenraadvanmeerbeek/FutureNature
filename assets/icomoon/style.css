@@ -25,9 +25,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-sglobe:before {
-  content: "\e90a";
+.icon-sglobe {
+  display: inline-block; /* Ensures proper alignment */
+  width: 48px;           /* Adjust width */
+  height: auto;          /* Maintain aspect ratio */
 }
+
+.icon-sglobe:before {
+  font-size: 24px;       /* Adjust icon size */
+  color: #4fb1ba;        /* Change the color of the icon */
+}
+
 .icon-bluesky:before {
   content: "\e900";
 }
