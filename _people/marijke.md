@@ -23,7 +23,7 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-Marijke Geuskens works as a PhD researcher on the FutureNature project. After completing her master's in Bioscience Engineering, she started working in the sGlobe lab within the Department of Earth and Environmental Sciences at the KU Leuven. Marijke's master's thesis focused on remote sensing-derived structural variation to identify old-growth forests in Romania. Within the FutureNature project, her research is centered upon grassland community functioning. She looks at the current contribution of neophytes to ecosystem functioning and makes a functional comparison between native species and neophytes. Additionally, she compares community performance and multifunctionality between native and novel communities under changing climate conditions.
+Marijke Geuskens works as a PhD researcher on the **FutureNature** project. After completing her master's in Bioscience Engineering, she started working in the [sGlobe lab](https://www.sglobelab.com) within the Department of Earth and Environmental Sciences at the KU Leuven. Marijke's master's thesis focused on remote sensing-derived structural variation to identify old-growth forests in Romania. Within the FutureNature project, her research is centered upon grassland community functioning. She looks at the current contribution of neophytes to ecosystem functioning and makes a functional comparison between native species and neophytes. Additionally, she compares community performance and multifunctionality between native and novel communities under changing climate conditions.
 
 
 
