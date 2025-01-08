@@ -14,20 +14,19 @@ layout: page
   <!-- Define the desired category order -->
   {% assign category_order = "Principal Investigator, Postdoctoral Researcher, Doctoral Researcher" | split: ", " %}
 
-  {% for category in category_order %}
-    {% assign group = ordered_projects | where: "name", category %}
-    {% if group %}
-      <h2 id="{{ category | slugify }}">{{ category }}</h2>
-      <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
+  <div class="columns columns-break">
+    {% for category in category_order %}
+      {% assign group = ordered_projects | where: "name", category %}
+      {% if group %}
         {% for project in group.first.items %}
           {% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
           <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
             {% include_cached pro/project-card.html project=project featured=featured %}
           </div>
         {% endfor %}
-      </div>
-    {% endif %}
-  {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
 {% else %}
   <p>No items found in the collection "{{ show_collection }}".</p>
 {% endif %}
