@@ -27,8 +27,7 @@
 
 .icon-sglobelab:before {
   content: "\e90b";
-  justify-content: center;
-}
+  }
 .icon-sglobe:before {
   content: "\e90a";
 }
