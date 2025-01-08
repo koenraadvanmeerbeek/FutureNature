@@ -9,7 +9,7 @@ Feel free to reach out through the following channels:
   <div class="contact-item">
     <a href="#" onclick="window.location='mailto:' + ['koenraad.vanmeerbeek', 'kuleuven.be'].join('@')" class="contact-link">
       <span class="icon-envelop contact-icon"></span>
-      <span class="contact-text">koenraad.vanmeerbeek[at]kuleuven.be</span>
+      <span class="contact-text">Email me</span>
     </a>
   </div>
 
@@ -80,11 +80,11 @@ Feel free to reach out through the following channels:
 /* Hover effect */
 .contact-link:hover .contact-icon {
   transform: scale(1.1); /* Slightly enlarge the icon */
-  color: #a4d5d9ff; /* Change color on hover */
+  color: #333333ff; /* Change color on hover */
 }
 
 .contact-link:hover .contact-text {
-  color: #a4d5d9ff; /* Change text color on hover */
+  color: #333333ff; /* Change text color on hover */
 }
 
 </style>
