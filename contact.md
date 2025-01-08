@@ -16,14 +16,14 @@ Feel free to reach out through the following channels:
   <div class="contact-item">
     <a href="https://bsky.app/profile/kvanmeerbeek.bsky.social" target="_blank" class="contact-link">
       <span class="icon-bluesky contact-icon"></span>
-      <span class="contact-text">@kvanmeerbeek.bsky.social</span>
+      <span class="contact-text">Follow me on Bluesky</span>
     </a>
   </div>
 
   <div class="contact-item">
     <a href="https://www.linkedin.com/in/koenraad-van-meerbeek-1b767b19/" target="_blank" class="contact-link">
       <span class="icon-linkedin2 contact-icon"></span>
-      <span class="contact-text">LinkedIn Profile</span>
+      <span class="contact-text">Follow me on LinkedIn</span>
     </a>
   </div>
 
@@ -39,9 +39,12 @@ Feel free to reach out through the following channels:
 /* General container for the contact list */
 .contact-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusts to 4, 2, or 1 column based on screen size */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust column minimum to 150px for more flexibility */
   gap: 1rem; /* Space between items */
   justify-items: center; /* Centers items within the grid */
+  width: 100%; /* Ensure the grid container takes the full width */
+  max-width: 1200px; /* Optional: Restrict maximum width for better design on large screens */
+  margin: 0 auto; /* Center the grid container horizontally */
 }
 
 /* Individual contact item */
@@ -77,10 +80,11 @@ Feel free to reach out through the following channels:
 /* Hover effect */
 .contact-link:hover .contact-icon {
   transform: scale(1.1); /* Slightly enlarge the icon */
-  color: #007acc; /* Change color on hover */
+  color: #a4d5d9ff; /* Change color on hover */
 }
 
 .contact-link:hover .contact-text {
-  color: #007acc; /* Change text color on hover */
+  color: #a4d5d9ff; /* Change text color on hover */
 }
+
 </style>
