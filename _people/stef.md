@@ -24,7 +24,7 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-In Work Package 1, ...
+Dr. Stef Haesen joined the [sGlobe lab](https://www.sglobelab.com) in 2018 as a PhD student after completing his master’s degree in Bioscience Engineering. His doctoral research centered on modeling how microclimate temperature affects forest plant species distributions. At the end of 2023, he earned his PhD and joined the **FutureNature** project, where he now leads Work Package 2 and oversees all modeling tasks.
 
 
 

@@ -24,7 +24,7 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-In Work Package 1, ...
+Senne Spreij joined the **FutureNature** project and the [sGlobe lab](https://www.sglobelab.com) in 2024 after obtaining his degree in Bioscience Engineering at KU Leuven. During his master’s thesis, he studied the use of multispectral UAV imagery to identify invasive tree species in South African fynbos vegetation. As a PhD student, he investigates how functional assisted migration can be used as a nature management tool to maintain or recover ecosystem functions with a special focus on temperate grasslands in Europe.
 
 
 

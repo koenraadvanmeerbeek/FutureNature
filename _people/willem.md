@@ -23,7 +23,7 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-Willem Goossens joined the sGlobe lab at the KU Leuven in 2023, shortly after defending his master’s thesis on tropical dry forest restoration in Peru and earning a degree in Bioscience engineering. Since then, he has been studying the influence of non-native plant species on biodiversity across Europe and comparing their potential impact with other drivers of species richness declines. Additionally, Willem has a strong interest in pollination ecology, exploring interactions between bee species and non-native plants, particularly in the context of future climate change. To investigate these dynamics, he employs a diverse range of methodologies, from state-of-the-art image recognition to traditional field experiments.
+Willem Goossens joined the [sGlobe lab](https://www.sglobelab.com) at the KU Leuven in 2023, shortly after defending his master’s thesis on tropical dry forest restoration in Peru and earning a degree in Bioscience engineering. Since then, he has been studying the influence of non-native plant species on biodiversity across Europe and comparing their potential impact with other drivers of species richness declines. Additionally, Willem has a strong interest in pollination ecology, exploring interactions between bee species and non-native plants, particularly in the context of future climate change. To investigate these dynamics, he employs a diverse range of methodologies, from state-of-the-art image recognition to traditional field experiments.
 
 
 
