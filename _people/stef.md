@@ -9,11 +9,11 @@ category: Postdoctoral Researcher
 #  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.
 # date: 1 Jun 2020
 image: 
-  path: /assets/img/projects/qwtel.jpg
+  path: /assets/img/people/Stef.jpg
   srcset: 
-    1920w: /assets/img/projects/qwtel.jpg
-    960w:  /assets/img/projects/qwtel@0,5x.jpg
-    480w:  /assets/img/projects/qwtel@0,25x.jpg
+    1920w: /assets/img/people/Stef.jpg
+    960w:  /assets/img/people/Stef_0.5.jpg
+    480w:  /assets/img/people/Stef_0.25.jpg
 # links:
 #  - title: Link
 #    url: https://qwtel.com/
