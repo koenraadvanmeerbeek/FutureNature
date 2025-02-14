@@ -4,13 +4,25 @@ title: Welcome
 cover: true
 ---
 
-Climate change is pushing ecosystems beyond historical boundaries. Traditional conservation methods are no longer effective. Instead of resisting change, we should guide ecosystems towards desired outcomes. Assisted migration, the translocation of species to mimic range expansion under climate change, is a proposed strategy but faces controversy. Focusing on risks over benefits has hindered research and innovation in this area. Yet, the costs of inaction are too high and time is running out.
+Climate change is pushing ecosystems beyond historical boundaries. Traditional conservation methods are no longer effective. Instead of resisting change, we should **guide ecosystems** toward desired outcomes. 
 
-**FutureNature** is a project funded by the [European Research Council](https://cordis.europa.eu/project/id/101076837), aiming to shape future functional ecosystems. we will approach the assisted migration of plant species from an innovative functional perspective, shifting the focus from minimising the impact of translocated species to maximising their contribution to the functioning of novel communities. To do so, the research team will study the contribution of non-invasive alien species to ecosystem functioning and test novel, simulated grassland communities in a climate change experiment. This knowledge will help create resilient ecosystems under climate change.
+One promising strategy is **assisted migration**—the translocation of species to mimic range expansion under climate change. However, this approach remains controversial. A predominant focus on risks over benefits has hindered research and innovation. Yet, the **costs of inaction are too high, and time is running out**.
 
-With the knowledge gained, we will be able to shape ecosystems that will not only survive, but thrive under climate change. **FutureNature** will provide a “greenprint” to study assisted migration across species groups and ecosystems, and, ideally, enable a paradigm shift in conservation thinking by lifting the psychological barriers preventing changes in natural ecosystems.
+## About **FutureNature**
+**FutureNature** is a research project funded by the [European Research Council](https://cordis.europa.eu/project/id/101076837), aiming to shape **functional ecosystems** for the future. 
 
-The **FutureNature** project is led by Prof. Koenraad Van Meerbeek, associate professor at the Department of Earth and Environmental Sciences of the [KU Leuven](https://www.kuleuven.be/english/kuleuven/index.html) and PI of of the [sGlobe lab](https://www.sglobelab.com). In 2022, he received an ERC starting grant for this project. 
+We take an **innovative functional perspective** on assisted migration, shifting the focus from **minimizing** the impact of translocated species to **maximizing** their contribution to ecosystem functioning. To achieve this, our research team will:
+
+- Study how **non-invasive alien species** contribute to ecosystem processes.
+- Experiment with **simulated grassland communities** under climate change scenarios.
+- Develop knowledge to **build resilient ecosystems** that thrive under future conditions.
+
+## Our Vision
+With the insights gained, we aim to create **a "greenprint"** for studying assisted migration across species and ecosystems. Ultimately, **FutureNature** strives to **shift conservation thinking**, breaking psychological barriers that currently prevent adaptive ecosystem management.
+
+## Leadership
+The **FutureNature** project is led by **Prof. Koenraad Van Meerbeek**, associate professor at the Department of Earth and Environmental Sciences at [KU Leuven](https://www.kuleuven.be/english/kuleuven/index.html) and **PI of the [sGlobe lab](https://www.sglobelab.com)**. In 2022, he was awarded an **ERC Starting Grant** to support this research.
 
 ---
+
 ![logos](/assets/img/logos.png)
