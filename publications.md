@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 ## Preprint
-3. **Van Meerbeek, K.; Spreij, S.; Geuskens, M.**; Liu, C.; **Goossens, W. & Haesen, S.*** (2025). Functional assisted migration to sustain ecosystem functions under climate change. *EcoEvoRxiv¨*. [DOI: 10.32942/X2PS61](https://doi.org/10.32942/X2PS61)
+3. **Van Meerbeek, K.; Spreij, S.; Geuskens, M.**; Liu, C.; **Goossens, W. & Haesen, S.*** (2025). Functional assisted migration to sustain ecosystem functions under climate change. *EcoEvoRxiv*. [DOI: 10.32942/X2PS61](https://doi.org/10.32942/X2PS61)
 
 ## 2024
 
