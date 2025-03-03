@@ -1,7 +1,7 @@
 publications:
   - year: 2025
     category: Preprint
-    authors: "Van Meerbeek, K.; Spreij, S.; Geuskens, M.; Liu, C.; Goossens, W. & Haesen, S."
+    authors: "Van Meerbeek, K., Spreij, S., Geuskens, M., Liu, C., Goossens, W. & Haesen, S."
     title: "Functional assisted migration to sustain ecosystem functions under climate change"
     journal: "*EcoEvoRxiv*"
     doi: "10.32942/X2PS61"
@@ -9,7 +9,7 @@ publications:
 
   - year: 2024
     category: Journal
-    authors: "Fonteyn, W.; Serra‐Diaz, J.M.; Muys, B.; & Van Meerbeek, K."
+    authors: "Fonteyn, W., Serra‐Diaz, J.M., Muys, B., & Van Meerbeek, K."
     title: "Incorporating climatic extremes using the GEV distribution improves SDM range edge performance"
     journal: "*Journal of Biogeography*"
     doi: "10.1111/jbi.15067"
@@ -17,7 +17,7 @@ publications:
 
   - year: 2024
     category: Journal
-    authors: "Liu, C.; Van Meerbeek, K."
+    authors: "Liu, C., Van Meerbeek, K."
     title: "Predicting the responses of European grassland communities to climate and land cover change"
     journal: "*Philosophical Transactions of the Royal Society B*, **379**(1902), 20230335"
     doi: "10.1098/rstb.2023.0335"
