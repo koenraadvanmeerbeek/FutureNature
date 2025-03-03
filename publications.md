@@ -3,17 +3,33 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-## Preprint
-3. **Van Meerbeek, K.; Spreij, S.; Geuskens, M.**; Liu, C.; **Goossens, W. & Haesen, S.*** (2025). Functional assisted migration to sustain ecosystem functions under climate change. *EcoEvoRxiv*. [DOI: 10.32942/X2PS61](https://doi.org/10.32942/X2PS61)
 
-## 2024
+{% assign publications = site.data.publications.publications | sort: "year" | reverse %}
+{% assign project_members = site.data.project_members.members %}
+{% assign count = publications.size %}
 
-2. Fonteyn, W.; Serra‐Diaz, J.M.; Muys, B.; & **Van Meerbeek, K**. (2024). Incorporating climatic extremes using the GEV distribution improves SDM range edge performance. *Journal of Biogeography*. [DOI: 10.1111/jbi.15067](https://doi.org/10.1111/jbi.15067)
+{% assign grouped_publications = publications | group_by: "year" %}
 
-1. Liu, C.; **Van Meerbeek, K.** (2024). Predicting the responses of European grassland communities to climate and land cover change. *Philosophical Transactions of the Royal Society B*, **379**(1902), 20230335. [DOI: 10.1098/rstb.2023.0335](https://doi.org/10.1098/rstb.2023.0335)
+{% for group in grouped_publications %}
+## {{ group.name }}
 
----
+{% for pub in group.items %}
+{% assign author_list = pub.authors | split: ";" %}
+{{ count }}. 
 
+{% for author in author_list %}
+  {% assign author_trimmed = author | strip %}
+  {% if project_members contains author_trimmed %}
+    **{{ author_trimmed }}**
+  {% else %}
+    {{ author_trimmed }}
+  {% endif %}
+  {% if forloop.last == false %}; {% endif %}
+{% endfor %}
 
+({{ pub.year }}). {{ pub.title }}. {{ pub.journal }}. [DOI: {{ pub.doi }}]({{ pub.url }})
 
+{% assign count = count | minus: 1 %}
+{% endfor %}
 
+{% endfor %}
