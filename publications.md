@@ -14,7 +14,7 @@ permalink: /publications/
 ## {{ group.name }}
 
 {% for pub in group.items %}
-{% assign author_list = pub.authors | split: "," %}
+{% assign author_list = pub.authors | split: ", " %}  {# Correctly split on ', ' to avoid line breaks #}
 
 {{ count }}. 
 {% for author in author_list %}
