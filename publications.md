@@ -17,7 +17,6 @@ permalink: /publications/
 {% assign author_list = pub.authors | split: ";" %}
 
 {{ count }}. 
-
 {% for author in author_list %}
   {% assign author_trimmed = author | strip %}
   {% if project_members contains author_trimmed %}
@@ -27,8 +26,7 @@ permalink: /publications/
   {% endif %}
   {% if forloop.last == false %}; {% endif %}
 {% endfor %}
-
-({{ pub.year }}). {{ pub.title }}. {{ pub.journal }}. [DOI: {{ pub.doi }}]({{ pub.url }}).
+ ({{ pub.year }}). {{ pub.title }}. {{ pub.journal }}. [DOI: {{ pub.doi }}]({{ pub.url }}).
 
 {% assign count = count | minus: 1 %}
 {% endfor %}
