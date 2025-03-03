@@ -15,6 +15,7 @@ permalink: /publications/
 
 {% for pub in group.items %}
 {% assign author_list = pub.authors | split: ";" %}
+
 {{ count }}. 
 
 {% for author in author_list %}
@@ -27,7 +28,7 @@ permalink: /publications/
   {% if forloop.last == false %}; {% endif %}
 {% endfor %}
 
-({{ pub.year }}). {{ pub.title }}. {{ pub.journal }}. [DOI: {{ pub.doi }}]({{ pub.url }})
+({{ pub.year }}). {{ pub.title }}. {{ pub.journal }}. [DOI: {{ pub.doi }}]({{ pub.url }}).
 
 {% assign count = count | minus: 1 %}
 {% endfor %}
